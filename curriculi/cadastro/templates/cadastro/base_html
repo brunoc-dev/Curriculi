@@ -1,0 +1,12 @@
+<!doctype html>
+
+<html language>
+<head>
+	<link rel = "stylesheet" type = "text/css" href = "bootstrap.css" />
+	<title>{% block titulo %}Curriculi !{% endblock titulo %}</title>
+</head>
+<body>
+
+
+</body>
+</html>
