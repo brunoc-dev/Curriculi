@@ -1,0 +1,37 @@
+# Empty CSS file for your own CSS
+
+body {
+  background-color: black;
+
+}
+
+table{
+  background-color: #ffffff;
+  table-layout: auto;
+  border-radius: rounded;
+}
+
+.glyphicon-remove{
+  color:red;
+  display: inline-block;
+  float: right;
+}
+
+.glyphicon-edit{
+  color:green;
+  display: inline-block;
+  float: right;
+}
+
+fieldset{
+  padding-top: 20px;
+  color: orange;
+
+}
+.imput-error1,
+.imput-error2{
+  display: inline-block;
+}
+.has-error{
+  box-shadow: 0 0 5px orange;
+}
