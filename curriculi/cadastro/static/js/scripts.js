@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
 
   function getCookie(name) {
     var cookieValue = null;
@@ -69,3 +69,4 @@ var csrftoken = getCookie('csrftoken');
     })
   });
 });
+*/

@@ -1,0 +1,16 @@
+  <form class="form" >{{ csrf_token }}
+    <fieldset>
+      <div style="display:none">
+        <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+      </div>
+      <div class="form-group" id="comentario">
+        <label for = "name">Nome:</label>
+        <spam id="imput-error1" ng-show="errors.name">{{ errors.name}}</spam><br>
+        <input type = "text" class = "form-control" ng-model="comentario.name" ng-class="{true:'', false:'has-error'}[errors.nome==null]"></input>
+        <label for="comment" >Comentário:</label>
+        <spam id="imput-error2" ng-show="errors.comment" >{{ errors.comment }}</spam><br>
+        <textarea class="form-control" rows="3" ng-model="comentario.comment" ng-class="{true:'', false:'has-error'}[errors.comment==null]"></textarea>
+      </div>
+      <input class="btn btn-success" type="submit" ng-click="save()">
+    </fieldset>
+  </form>
