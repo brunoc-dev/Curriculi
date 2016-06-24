@@ -1,4 +1,5 @@
 from django.shortcuts import render
+<<<<<<< HEAD
 from models import Script
 import json
 
@@ -25,3 +26,11 @@ def delete(request):
 
 def index(request):
     return render(request, 'cadastro/index.html', {'data': data})
+=======
+
+
+# Create your views here.
+
+def index(request):
+	return render(request, 'cadastro/base_html',{})
+>>>>>>> bdcb33a421f4c76d5b4aef65749b1120855a3125

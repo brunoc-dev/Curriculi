@@ -3,12 +3,16 @@ from django.db import models
 # Create your models here.
 
 
+<<<<<<< HEAD
 class Script(models.Model):
 	nome = models.CharField(max_length = 100)
 	comentario = models.TextField(max_length = 100)
 
 	def __str__(self):
 		return self.nome
+=======
+
+>>>>>>> bdcb33a421f4c76d5b4aef65749b1120855a3125
 
 
 class Linguagem(models.Model):
@@ -51,7 +55,11 @@ class Experiencia(models.Model):
 	tempo = models.CharField(max_length = 50)
 	descAtividade = models.TextField(max_length = 200)
 
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> bdcb33a421f4c76d5b4aef65749b1120855a3125
 class Vaga(models.Model):
 	nomeVaga = models.CharField(max_length = 100)
 	descVaga = models.TextField(max_length = 100)
@@ -79,3 +87,8 @@ class Candidato(models.Model):
 
 	def __str__(self):
 		return self.nomeCanditato
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> bdcb33a421f4c76d5b4aef65749b1120855a3125

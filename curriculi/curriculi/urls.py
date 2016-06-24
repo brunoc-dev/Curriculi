@@ -17,6 +17,10 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
+<<<<<<< HEAD
 	url(r'^', include('cadastro.urls', namespace = 'cadastro')),
+=======
+	url(r'^curriculi/$', include('cadastro.urls', namespace = 'cadastro')),
+>>>>>>> bdcb33a421f4c76d5b4aef65749b1120855a3125
     url(r'^admin/', include(admin.site.urls)),
 ]
